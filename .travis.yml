@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - "7"
+  - "7.4"
+  - "6"
+
+install:
+  - npm install
+
+test:
+  npm test
